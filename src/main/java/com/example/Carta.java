@@ -10,6 +10,7 @@ public class Carta {
     }
 
     public String imagePath() {
+        // TODO: Arrumar o caminho para cartas de imagem
         return "classic-cards/" + numero + naipe + ".png";
     }
 
